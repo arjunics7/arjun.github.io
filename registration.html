@@ -1,0 +1,53 @@
+<html>
+  <body>
+    <h1>Registration form</h1>
+    <form method="post">
+      <label for="name"><b>Name:</b></label>
+      <input type="text" id="name"/><br>
+      <br>
+      <label for="password"><b>Password:</b></label>
+      <input type="password" id="password"/><br>
+      <br>
+      <label for="email"><b>Email:</b></label>
+      <input type="text" id="email"/><br>
+      <br>
+      <label for="confirm email"><b>Confirm Email:</b></label>
+      <input type="text" id="confirm email"/>
+      <br>
+      <br>
+      <label for="ph"><b>Phone number:</b></label>
+      <input type="number" id="ph"/>
+      <br>
+      <br>
+      <label for="gender"><b>Gender:</b><br></label>
+        <input type="radio" id="male" name="gender" value="male">Male<br>
+        </label>
+        <label>
+        <input type="radio" id="female" name="gender" value="female" required>Female<br>
+        </label>
+        <label>
+        <input type="radio" id="others" name="gender" value="others">Others<br>
+        </label>
+      </label>
+      <br>
+      <label for="dob">Date Of Birth</label>
+     <select for="date">
+      <option id="date" value="date" required>Date</option>
+      <option id="date" value="month" required>Month</option>
+      <option id="date" value="year" required>Year</option>
+     </select>
+      <br>
+      <br>
+      <label for="checkbox">Languages:</label>
+        <input type="checkbox" id="checkbox">English
+        <input type="checkbox" id="checkbox">Hindi
+        <input type="checkbox" id="checkbox">Telegu
+      <br>
+      <label for="ad">Address:</label>
+      <textarea id="address" name="ad" rows="5" cols="40" required></textarea><br>
+      <button type="submit">Submit</button>
+      <br>
+    <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>
